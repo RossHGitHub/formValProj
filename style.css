@@ -1,0 +1,32 @@
+html{
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-image: linear-gradient(72deg,rgb(194, 194, 194), rgb(129, 176, 188));
+}
+
+.wrapper{
+    height: 600px;
+    width: 400px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 5px 15px black;
+    background-image: linear-gradient(182deg, rgb(32, 41, 50), rgb(47, 51, 54));
+    color: white; 
+    flex-direction: column;
+}
+
+#form{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+}
