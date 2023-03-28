@@ -12,22 +12,28 @@
 
     <div class="wrapper">
         <h2>Standard Form</h2>
+
+
         <form id="form">
             <div class="emailWrapper">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <label for="email">Email:  *</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                <span id="emailError"></span>
             </div>
             <div class="postCodeWrapper">
-                <label for="postcode">Post Code:</label>
-                <input type="text" id="postcode" name="Postcode">
+                <label for="postcode">Post Code:  *</label>
+                <input type="text" id="postcode" name="Postcode" placeholder="E.g: PC12 ODE" required>
+                <span id="postcodeError"></span>
             </div>
             <div class="passwordWrapper">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password">
+                <label for="password">Password:  *</label>
+                <input id="password" id="password" name="password" required>
+                <span id="passwordError"></span>
             </div>
             <div class="passwordConfirmWrapper">
-                <label for="passwordConfirm">Confirm Password:</label>
-                <input type="password" id="passwordConfirm" name="passwordConfirm">
+                <label for="passwordConfirm">Confirm Password:  *</label>
+                <input type="password" id="passwordConfirm" name="passwordConfirm" required>
+                <span id="passwordConfirmError"></span>
             </div>
             <button type="submit">Submit</button>
         </form>
