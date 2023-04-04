@@ -35,6 +35,11 @@ background-image: linear-gradient(72deg,rgb(194, 194, 194), rgb(129, 176, 188));
     display: block;
 }
 
+#emailError, #postcodeError, #passwordError, #passwordConfirmError {
+    font-size: 10px;
+    background-color: red
+}
+
 input:invalid{
     border: 2px solid red;
     border-radius: 5px;
